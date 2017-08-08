@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv sh
+exec gunicorn --log-level debug --debug -c /opt/netbox/gunicorn_config.py netbox.wsgi
