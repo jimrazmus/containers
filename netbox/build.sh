@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NETBOX=2.0.7
+NETBOX=2.1.2
 
 docker build --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
              --build-arg NB_VERS=${NETBOX} \
